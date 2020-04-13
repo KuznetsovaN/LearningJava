@@ -14,7 +14,7 @@ public class task10 {
 //Пройдёмся по всему массиву, заполняя его
 
         for (int t = 0; t < size; t++) {
-            System.out.print("ввести строки "+(t+1)+" " ); // Выводим на экран, полученный массив {
+            System.out.println("ввести строки "+(t+1)+" " ); // Выводим на экран, полученный массив {
             for (int i = 0; i < size1; i++) {
                 array[t][i] = input.nextInt(); // Заполняем массив элементами, введёнными с клавиатуры
             }
@@ -24,10 +24,10 @@ public class task10 {
                 array[t][i]= array[t][i]*3; // умножаем на три
             }
 
-            System.out.print("Inserted array elements:");
+            System.out.println("Вывод матрицы на экран:");
             for (t = 0; t < size; t++) {
                 for (int i = 0; i < size1; i++) {
-                    System.out.print(" " + array[t][i] ); // Выводим на экран, полученный массив
+                    System.out.print(" " + array[t][i] ); // Выводим на экран, полученный результат
                 }
                 System.out.println();
             }
