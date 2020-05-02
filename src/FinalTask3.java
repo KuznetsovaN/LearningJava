@@ -16,7 +16,7 @@ public class FinalTask3 {
 
         // вводим кол-во рублей
         System.out.print("Введите колличество рублей: ");
-        int count_rub = scanner.nextInt();
+        double count_rub = scanner.nextDouble();
         System.out.println("Кол-во рублей: " + count_rub);
 
         double total_dollars = count_rub/dollar_rate;
